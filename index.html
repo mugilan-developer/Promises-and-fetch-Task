@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Integration</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">API Data Display</h1>
+        <div class="row">
+            <!-- Weather Section -->
+            <div class="col-md-4">
+                <div class="weather-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Information</h5>
+                        <p id="weather-description" class="card-text">Loading...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Astronomy Picture Section -->
+            <div class="col-md-4">
+                <div class="astro-card card">
+                    <img id="astro-image" class="card-img-top" src="" alt="Astronomy Picture of the Day">
+                    <div class="card-body">
+                        <h5 class="card-title">Astronomy Picture of the Day</h5>
+                        <p id="astro-description" class="card-text">Loading...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Joke Section -->
+            <div class="col-md-4">
+                <div class="joke-card card">
+                    <div class="card-body">
+                        <h5 class="card-title">Random Joke</h5>
+                        <p id="joke-text" class="card-text">Loading...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>

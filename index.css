@@ -1,0 +1,11 @@
+/* styles.css */
+
+/* Basic styling for the card sections */
+.weather-card, .astro-card, .joke-card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
